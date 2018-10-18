@@ -17,7 +17,7 @@
       return {
         isShowBigImg: false,
         current: '',
-        imgs: ['static/img/test1.jpg','static/img/test2.jpg','static/img/test3.jpg','static/img/test4.jpg','static/img/test5.jpg','static/img/test6.jpg']
+        imgs: [require('../assets/img/test1.jpg'),require('../assets/img/test2.jpg'),require('../assets/img/test3.jpg'),require('../assets/img/test4.jpg'),require('../assets/img/test5.jpg'),require('../assets/img/test6.jpg')]
       }
 		},
 		mounted () {
