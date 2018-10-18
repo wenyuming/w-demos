@@ -24,7 +24,7 @@ let routes = [
 	},
 	{
 	  path: '/checkbox',
-	  name: '复选框',
+	  name: '复选框案例',
 	  component: Checkbox
 	},
 	{
