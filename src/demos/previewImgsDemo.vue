@@ -3,7 +3,7 @@
 		<div v-for="i in imgs" style="width:100px;height:100px;display:inline-block;margin-left:10px;margin-top:10px">
         <img :src="i" alt="" style="display:inline-block;width:100%;height:100%" @click="showBigImg(i)">
     </div>
-    <wimg v-if="isShowBigImg" :imgs="imgs" :currentImg="current" @close="isShowBigImg = false"></wimg>
+    <wimg :show="isShowBigImg" :imgs="imgs" :currentImg="current" @close="isShowBigImg = false"></wimg>
 	</div>
 </template>
 <script>
@@ -25,7 +25,6 @@
 		methods: {
       showBigImg (i) {
         this.current = i
-        console.log(this.current, 'this.current')
         this.isShowBigImg = true
       }
 		}

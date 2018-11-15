@@ -6,6 +6,7 @@ import Login from '@/components/login'
 import Register from '@/components/register'
 import Websoket from '@/components/websokettest.vue'
 import previewImg from '@/components/previewImg.vue'
+import upload from '@/components/upload.vue'
 let routes = [
 	{
 	  path: '/login',
@@ -46,6 +47,11 @@ let routes = [
 	  path: '/previewimgDemo',
 	  name: '移动端图片预览demo',
 	  component: previewImgsDemo
+	},
+	{
+	  path: '/upload',
+	  name: '多图上传',
+	  component: upload
 	}
 ]
 export default routes

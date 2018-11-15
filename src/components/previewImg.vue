@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div class="zhezhao">
+    <div v-if="show" class="zhezhao">
       <div style="width:100%;height:100%;position:relative;" @touchstart="startChange" @touchend="changeImg">
         <img :src="current" alt="" style="max-width: 100%;
           max-height: 100%;
@@ -28,22 +28,26 @@
       currentImg: {
         default: '',
         type: String
+      },
+      show: {
+        default: false,
+        type: Boolean
       }
     },
     data () {
       return {
-        current: this.currentImg,
+        current: '',
         currentX: '',
         currentIndex: ''
       }
     },
     watch: {
       currentImg (val,old) {
+        this.current = this.currentImg
         this.getIndex(val)
       }
     },
     mounted () {
-      this.getIndex(this.currentImg)
     },
     methods: {
       startChange (e) {
@@ -94,5 +98,11 @@
     left:0;
     right: 0;
     background-color: #000;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
   }
 </style>
