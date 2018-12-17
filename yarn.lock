@@ -7224,6 +7224,10 @@ w-previewimg@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w-previewimg/-/w-previewimg-1.0.2.tgz#3efb631a6bbc3c12672994277c8ab39a6de1f3f7"
 
+w-rater@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/w-rater/-/w-rater-1.0.0.tgz#57c7bc4c41171f196f1c46069af2c0b94f10b104"
+
 walker@~1.0.5:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"

@@ -22,6 +22,7 @@
     "vuex-i18n": "^1.3.1",
     "vux": "^2.2.0",
     "w-previewimg": "^1.0.1",
+    "w-rater": "^1.0.0",
     "wcheckbox": "^1.0.1",
     "wenlist": "^1.0.3"
   },

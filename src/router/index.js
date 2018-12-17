@@ -2,6 +2,7 @@ import Checkbox from '@/demos/checkboxdemo'//复选框示例
 import Breadcrumb from '@/demos/breadcrumbdemo' //面包屑示例
 import WList from '@/demos/wSortListDemo' //排序列表示例
 import previewImgsDemo from '@/demos/previewImgsDemo' //图片预览示例
+import Rater from '@/demos/raterDemo' //图片预览示例
 import Login from '@/components/login'
 import Register from '@/components/register'
 import Websoket from '@/components/websokettest.vue'
@@ -52,6 +53,11 @@ let routes = [
 	  path: '/upload',
 	  name: '多图上传',
 	  component: upload
+	},
+	{
+	  path: '/rater',
+	  name: '评分',
+	  component: Rater
 	}
 ]
 export default routes
