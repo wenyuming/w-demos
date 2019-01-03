@@ -55,4 +55,5 @@ function mkRslt(arr){
     // 去除所有空格  
     arrRslt = arrRslt.toString().replace(/\s+/g,"");  
     return arrRslt;  
-}  
+}
+export default makePy

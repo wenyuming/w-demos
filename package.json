@@ -13,7 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "better-scroll": "^1.12.6",
+    "better-scroll": "^1.13.2",
     "fastclick": "^1.0.6",
     "vue": "^2.5.2",
     "vue-picture-preview": "^1.2.0",

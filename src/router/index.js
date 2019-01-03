@@ -3,6 +3,7 @@ import Breadcrumb from '@/demos/breadcrumbdemo' //面包屑示例
 import WList from '@/demos/wSortListDemo' //排序列表示例
 import previewImgsDemo from '@/demos/previewImgsDemo' //图片预览示例
 import Rater from '@/demos/raterDemo' //图片预览示例
+import City from '@/demos/city' // 城市列表+自动定位
 import Login from '@/components/login'
 import Register from '@/components/register'
 import Websoket from '@/components/websokettest.vue'
@@ -58,6 +59,11 @@ let routes = [
 	  path: '/rater',
 	  name: '评分',
 	  component: Rater
+	},
+	{
+	  path: '/city',
+	  name: '城市列表',
+	  component: City
 	}
 ]
 export default routes
