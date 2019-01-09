@@ -5,6 +5,7 @@ import previewImgsDemo from '@/demos/previewImgsDemo' //图片预览示例
 import Rater from '@/demos/raterDemo' //图片预览示例
 import City from '@/demos/city' // 城市列表+自动定位
 import Login from '@/components/login'
+import download from '@/demos/downloadqrcode'
 import Register from '@/components/register'
 import Websoket from '@/components/websokettest.vue'
 import previewImg from '@/components/previewImg.vue'
@@ -54,6 +55,11 @@ let routes = [
 	  path: '/upload',
 	  name: '多图上传',
 	  component: upload
+	},
+	{
+	  path: '/download',
+	  name: '二维码下载',
+	  component: download
 	},
 	{
 	  path: '/rater',
